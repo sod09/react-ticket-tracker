@@ -1,0 +1,13 @@
+.title {
+  text-align: center;
+}
+
+.content {
+  max-width: 100vw;
+  max-width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 275px);
+  gap: 50px;
+  justify-content: space-evenly;
+  min-height: 100%;
+}

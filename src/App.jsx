@@ -1,7 +1,22 @@
+import React from "react";
 import styles from "./App.module.scss";
+import EmployeeCard from "./EmployeeCard";
+
+import team from "./data/teamsData";
 
 const App = () => {
-  return <p className={styles.para}>App Works...</p>;
+  const getEmployeeCardJsx = (team) => (
+    <EmployeeCard key={team.id} team={team} />
+  );
+
+  return (
+    <>
+      <div className={styles.title}> TICKET TRACKER</div>
+      <section className={styles.content}>
+        {team.map(getEmployeeCardJsx)}
+      </section>
+    </>
+  );
 };
 
 export default App;
