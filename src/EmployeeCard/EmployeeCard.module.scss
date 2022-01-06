@@ -1,7 +1,17 @@
 .cardContainer {
-  border: 3px solid blue;
+  border: 5px solid #bfa2db;
   border-radius: 10px;
   height: 350px;
   width: 300px;
   padding: 20px;
+  background-color: #f0d9ff;
+  
+
+  h1,
+  h2 {
+    font-size: 16px;
+    color: #7f7c82;
+    background-color: #f0d9ff;
+    padding: 2px;
+  }
 }

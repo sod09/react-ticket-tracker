@@ -11,7 +11,7 @@ const App = () => {
 
   return (
     <>
-      <div className={styles.title}> TICKET TRACKER</div>
+      <h1 className={styles.title}> TICKET TRACKER</h1>
       <section className={styles.content}>
         {team.map(getEmployeeCardJsx)}
       </section>
